@@ -1,0 +1,21 @@
+{
+  "name": "classjest",
+  "version": "1.0.0",
+  "description": "testing for an endpoint",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1",
+    "jest": "^27.5.1",
+    "mongoose": "^6.2.4",
+    "supertest": "^6.2.2"
+  }
+}
